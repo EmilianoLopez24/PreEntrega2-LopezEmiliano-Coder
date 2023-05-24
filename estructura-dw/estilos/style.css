@@ -1,0 +1,332 @@
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: 'Poppins', sans-serif;
+  box-sizing: border-box;
+  text-decoration: none;
+}
+
+/*---NavBar ---*/
+
+nav {
+  background-color: rgb(71, 69, 65);
+  color: blanchedalmond;
+  padding: 30px;
+}
+
+/*---Index ---*/
+
+.body-index {
+  background: linear-gradient(90deg, lightblue, blanchedalmond);
+}
+
+.container {
+  display: flex;
+  padding: 15px;
+}
+
+.textbox1 p {
+  margin: 30px 25px;
+}
+
+.titulo1{
+  margin-top: 15px;
+  padding-top: 15px;
+  margin-left: 62px;
+}
+
+.img-inicio1 {
+  width: 350px;
+  height: 460px;
+  margin-top: 20px;
+}
+
+.explora button {
+  width: 150px;
+  height: 50px;
+  margin-left: 50px;
+  background-color: rgb(65, 145, 231);
+  border-radius: 4px;
+  border-color: rgb(65, 145, 231);
+  border-style: solid;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+  }
+  
+.explora button a {
+  color: white;
+  text-decoration: none;
+}
+
+.container2 {
+  display: flex;
+  flex-direction: row-reverse;
+  padding: 12px;
+}
+
+.img-inicio2 {
+  width: 440px;
+  margin: 15px 15px;
+}
+
+.textbox2 p {
+ padding: 12px;
+ margin-right: 8px;
+ margin-left: 15px;
+}
+
+.titulo2{
+  font-size: 32px;
+  padding: 10px;
+  margin-left: 100px;
+}
+/*---Resumenes---*/
+
+.libro-reglas {
+  width: 90%;
+}
+
+.grid-container {
+  background: linear-gradient(45deg, lightblue, blanchedalmond);
+  padding: 15px 9%;
+}
+
+.grid-container h1 {
+  text-align: center;
+  font-size: 40px;
+  padding-bottom: 15px;
+  color: rgb(71, 69, 65);
+  text-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+}
+
+.grid-container .box-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(270px, 1fr));
+  gap: 30px;
+} 
+
+.grid-container .box-container .box {
+box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+border-radius: 5px;
+background: white;
+text-align: center;
+padding: 30px 20px;
+margin-bottom: 24px;
+}
+
+.grid-container .box-container .box h3 {
+  color: rgb(54, 53, 52);
+  font-size: 22px;
+  padding: 10px 0;
+}
+
+.grid-container .box-container .box p {
+  color: rgb(81, 80, 80);
+  font-size: 15px;
+  line-height: 1.6;
+}
+
+.grid-container .box-container .box:hover {
+  box-shadow: 0 10px 5px rgba(0, 0, 0, 0.3);
+  transform: scale(1.02);
+}
+
+.grid-container .box-container .box a {
+  margin-top: 10px;
+  display: inline-block;
+  background: rgb(45, 45, 45);
+  font-size: 17px;
+  color: white;
+  border-radius: 5px;
+  padding: 8px 25px;
+  }
+
+/*---Mision---*/ 
+
+.body-mision {
+  background: rgb(251, 238, 221);
+}
+
+.misionimg {
+  width: 500px;
+  padding: 15px 0px 50px 0px;
+}
+
+.titulo-mision {
+  display: flex;
+  justify-content: center;
+  padding: 20px;
+  margin: 20px 20px 0px 20px;
+  font-size: 27px;
+  text-align: center;
+  text-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+}
+
+.container-mision {
+  display: flex;
+}
+
+.container-mision p {
+  padding: 12px;
+  margin:12px 15px 12px 12px
+}
+
+
+/*---sobre-nosotros---*/
+
+.body-au{
+  background: linear-gradient(45deg, lightblue, blanchedalmond);
+}
+
+.sobrenosotros {
+  width: 46%;
+  margin-top: 20px;
+}
+
+.img-container {
+  display: flex;
+  justify-content: center;
+}
+
+.title-container {
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+font-size: 26px;
+margin: 20px 12px 12px 12px;
+padding: 10px;
+text-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+}
+
+.textbox-au p {
+  padding: 20px;
+  margin: 0px 120px;
+  font-size: 17px;
+}
+
+.video-yt {
+  margin-left: 30%;
+  margin-top: 40px;
+  margin-bottom: 30px;
+}
+
+/*---Contacto---*/
+
+.body-contacto {
+  background: linear-gradient(45deg, lightblue, blanchedalmond);
+}
+
+
+/*---Footer---*/ 
+footer {
+  height: auto;
+  background-color: rgb(71, 69, 65);
+  padding-top: 30px;
+  border: 1px;
+  border-style: solid;
+  border-color: lightgray;
+}
+
+.footer-contenido{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+}
+
+.footer-contenido h3 {
+  font-weight: bold;
+  color: blanchedalmond;
+  padding: 12px;
+  font-size: 30px;
+}
+
+.footer-contenido p {
+  color: blanchedalmond ;
+  max-width: 500px;
+  padding: 8px;
+}
+
+.redes {
+   list-style: none;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   margin: 1rem 0 3rem 0;
+}
+
+.redes li {
+  margin: 0 10px;
+}
+
+.redes a {
+  color: blanchedalmond;
+}
+
+.redes a:hover {
+  color: rgba(165, 42, 42, 0.892)
+}
+
+.footer-bottom {
+  background-color: rgb(234, 208, 168);
+  padding: 20px 0;
+  text-align: center;
+  width: auto;
+}
+
+.footer-bottom {
+  font-size: 14px;  
+}
+.footer-bottom span{
+text-transform: uppercase;
+}
+
+@media screen and (max-width: 767px) {
+  
+  .container {
+    flex-flow: row wrap;
+  }
+  
+  .img-inicio1 {
+    display: block;
+    width: 90vw;
+  }
+
+  .titulo1 {
+    margin: 15px;
+  }
+
+  .titulo2 {
+    margin: 15px;
+  }
+
+  .container2 {
+    flex-flow: row wrap;
+  }
+
+  .img-inicio2 {
+    display: block;
+    width: 90vw;
+  }
+
+  .container-mision {
+    flex-flow: row wrap;
+  }
+
+  .misionimg {
+    display: block;
+    width: 95vw;
+}
+
+  .title-container {
+  flex-flow: row wrap;
+  }
+
+  .sobrenosotros {
+    display: block;
+    width: 95vw;
+  }
+  
+}
