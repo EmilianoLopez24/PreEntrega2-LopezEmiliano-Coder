@@ -58,6 +58,11 @@ nav {
   text-decoration: none;
 }
 
+.explora button:hover {
+  box-shadow: 0 6px 10px rgba(0, 0, 0, 0.2);
+  transition: 0.15s;
+}
+
 .container2 {
   display: flex;
   flex-direction: row-reverse;
