@@ -60,6 +60,8 @@ nav {
 
 .explora button:hover {
   box-shadow: 0 6px 10px rgba(0, 0, 0, 0.2);
+  background-color:  rgb(47, 124, 207);
+  border-color: rgb(47, 124, 207);
   transition: 0.15s;
 }
 
@@ -228,9 +230,7 @@ footer {
   height: auto;
   background-color: rgb(71, 69, 65);
   padding-top: 30px;
-  border: 1px;
-  border-style: solid;
-  border-color: lightgray;
+  border: 1px solid grey;
 }
 
 .footer-contenido{
@@ -238,7 +238,7 @@ footer {
   align-items: center;
   justify-content: center;
   flex-direction: column;
-  text-align: center;
+ 
 }
 
 .footer-contenido h3 {
@@ -268,15 +268,16 @@ footer {
 
 .redes a {
   color: blanchedalmond;
+  text-decoration:  none;
 }
 
 .redes a:hover {
-  color: rgba(165, 42, 42, 0.892)
+  color:  rgba(255, 255, 255, 0.75);
 }
 
 .footer-bottom {
   background-color: rgb(234, 208, 168);
-  padding: 20px 0;
+  padding: 15px 15px 5px 15px;
   text-align: center;
   width: auto;
 }
