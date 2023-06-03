@@ -224,7 +224,6 @@ text-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
   background: linear-gradient(45deg, lightblue, blanchedalmond);
 }
 
-
 /*---Footer---*/ 
 footer {
   height: auto;
@@ -251,6 +250,7 @@ footer {
   color: blanchedalmond ;
   max-width: 500px;
   padding: 8px;
+  text-align: center;
 }
 
 .redes {
