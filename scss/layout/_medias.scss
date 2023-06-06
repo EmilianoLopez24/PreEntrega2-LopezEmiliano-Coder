@@ -1,0 +1,61 @@
+@media screen and (max-width: 767px) {
+  
+  .container {
+    flex-flow: row wrap;
+  }
+  
+  .img-inicio1 {
+    display: block;
+    width: 90vw;
+  }
+
+  .titulo1 {
+    margin: 15px;
+  }
+
+  .titulo2 {
+    margin: 15px;
+  }
+
+  .container2 {
+    flex-flow: row wrap;
+  }
+
+  .img-inicio2 {
+    display: block;
+    width: 90vw;
+  }
+
+  .container-mision, .mision-section {
+    flex-flow: row wrap;
+  }
+
+  .misionimg {
+    display: block;
+    width: 95vw;
+  }
+
+  .title-container {
+  flex-flow: row wrap;
+  }
+
+  .sobrenosotros {
+    display: block;
+    width: 95vw;
+  }
+  
+
+  .img-container {
+    display: block;
+    width: 95vw;
+  }
+  .textbox-au p {
+  margin: 0px 30px;
+  }
+
+ .video-yt {
+   margin: 20px;
+   width: 90vw;
+  }
+  
+}

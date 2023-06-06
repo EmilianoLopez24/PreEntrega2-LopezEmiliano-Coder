@@ -1,13 +1,62 @@
-
 * {
   margin: 0;
   padding: 0;
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
   box-sizing: border-box;
   text-decoration: none;
 }
 
-/*---NavBar ---*/
+footer {
+  height: auto;
+  background-color: rgb(71, 69, 65);
+  padding-top: 30px;
+  border: 1px solid grey;
+}
+footer .footer-contenido {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+footer .footer-contenido p {
+  color: blanchedalmond;
+  max-width: 500px;
+  padding: 8px;
+  text-align: center;
+}
+footer h3 {
+  font-weight: bold;
+  color: blanchedalmond;
+  padding: 12px;
+  font-size: 30px;
+}
+footer .redes {
+  list-style: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 1rem 0 3rem 0;
+}
+footer .redes li {
+  margin: 0 10px;
+}
+footer .redes a {
+  color: blanchedalmond;
+  text-decoration: none;
+}
+footer .redes a:hover {
+  color: rgba(255, 255, 255, 0.75);
+}
+footer .footer-bottom {
+  background-color: rgb(234, 208, 168);
+  padding: 15px 15px 5px 15px;
+  text-align: center;
+  width: auto;
+  font-size: 14px;
+}
+footer .footer-bottom span {
+  text-transform: uppercase;
+}
 
 nav {
   background-color: rgb(71, 69, 65);
@@ -15,7 +64,9 @@ nav {
   padding: 30px;
 }
 
-/*---Index ---*/
+.body-contacto {
+  background: linear-gradient(90deg, lightblue, blanchedalmond);
+}
 
 .body-index {
   background: linear-gradient(90deg, lightblue, blanchedalmond);
@@ -30,7 +81,7 @@ nav {
   margin: 30px 25px;
 }
 
-.titulo1{
+.titulo1 {
   margin-top: 15px;
   padding-top: 15px;
   margin-left: 62px;
@@ -52,7 +103,7 @@ nav {
   border-style: solid;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
 }
-  
+
 .explora button a {
   color: white;
   text-decoration: none;
@@ -60,7 +111,7 @@ nav {
 
 .explora button:hover {
   box-shadow: 0 6px 10px rgba(0, 0, 0, 0.2);
-  background-color:  rgb(47, 124, 207);
+  background-color: rgb(47, 124, 207);
   border-color: rgb(47, 124, 207);
   transition: 0.15s;
 }
@@ -77,27 +128,74 @@ nav {
 }
 
 .textbox2 p {
- padding: 12px;
- margin-right: 8px;
- margin-left: 15px;
+  padding: 12px;
+  margin-right: 8px;
+  margin-left: 15px;
 }
 
-.titulo2{
+.titulo2 {
   font-size: 32px;
   padding: 10px;
   margin-left: 100px;
 }
-/*---Resumenes---*/
 
-.libro-reglas {
-  width: 90%;
+.body-mision {
+  background: linear-gradient(90deg, lightblue, blanchedalmond);
+}
+
+.misionimg {
+  width: 500px;
+  padding: 15px 0px 50px 10px;
+}
+
+.titulo-mision {
+  display: flex;
+  justify-content: center;
+  padding: 20px;
+  margin: 20px 20px 0px 20px;
+  font-size: 27px;
+  text-align: center;
+  text-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+}
+
+.container-mision {
+  display: flex;
+}
+
+.container-mision p {
+  padding: 12px;
+  margin: 12px 15px 12px 12px;
+}
+
+.mision-section {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.mision-box {
+  width: 210px;
+  height: 255px;
+  padding: 15px;
+  margin: 15px 15px 70px 15px;
+  border: 2px solid rgb(71, 69, 65);
+  border-radius: 12px;
+  background-color: rgb(71, 69, 65);
+  color: white;
+}
+
+.mision-section h3 {
+  text-align: center;
+}
+
+.mision-section p {
+  text-align: center;
+  padding-top: 30px;
 }
 
 .grid-container {
-  background: linear-gradient(45deg, lightblue, blanchedalmond);
+  background: linear-gradient(90deg, lightblue, blanchedalmond);
   padding: 15px 9%;
 }
-
 .grid-container h1 {
   text-align: center;
   font-size: 40px;
@@ -110,15 +208,14 @@ nav {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(270px, 1fr));
   gap: 30px;
-} 
-
+}
 .grid-container .box-container .box {
-box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
-border-radius: 5px;
-background: white;
-text-align: center;
-padding: 30px 20px;
-margin-bottom: 24px;
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+  border-radius: 5px;
+  background: white;
+  text-align: center;
+  padding: 30px 20px;
+  margin-bottom: 24px;
 }
 
 .grid-container .box-container .box h3 {
@@ -147,67 +244,14 @@ margin-bottom: 24px;
   border-radius: 5px;
   padding: 8px 25px;
   text-decoration: none;
-  }
-
-/*---Mision---*/ 
-
-.body-mision {
-  background: rgb(251, 238, 221);
 }
 
-.misionimg {
-  width: 500px;
-  padding: 15px 0px 50px 10px;
+.libro-reglas {
+  width: 90%;
 }
 
-.titulo-mision {
-  display: flex;
-  justify-content: center;
-  padding: 20px;
-  margin: 20px 20px 0px 20px;
-  font-size: 27px;
-  text-align: center;
-  text-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
-}
-
-.container-mision {
-  display: flex;
-}
-
-.container-mision p {
-  padding: 12px;
-  margin:12px 15px 12px 12px
-}
-
-.mision-section {
-  display: flex;
-  justify-content: space-evenly;
-}
-
-.mision-box {
-width: 210px;
-height: 255px;
-padding: 15px;
-margin: 15px 15px 70px 15px;
-border: 2px solid rgb(138, 129, 112);
-border-radius: 12px;
-background-color:rgb(138, 129, 112) ;
-color: white;
-}
-
-.mision-section h3 {
-  text-align: center;
-}
-
-.mision-section p {
-  text-align: center;
-  padding-top: 30px;
-}
-
-/*---sobre-nosotros---*/
-
-.body-au{
-  background: linear-gradient(45deg, lightblue, blanchedalmond);
+.body-au {
+  background: linear-gradient(90deg, lightblue, blanchedalmond);
 }
 
 .sobrenosotros {
@@ -221,14 +265,14 @@ color: white;
 }
 
 .title-container {
-display: flex;
-flex-direction: column;
-justify-content: center;
-align-items: center;
-font-size: 26px;
-margin: 20px 12px 12px 12px;
-padding: 10px;
-text-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-size: 26px;
+  margin: 20px 12px 12px 12px;
+  padding: 10px;
+  text-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
 }
 
 .textbox-au p {
@@ -243,134 +287,52 @@ text-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
   margin-bottom: 30px;
 }
 
-/*---Contacto---*/
-
-.body-contacto {
-  background: linear-gradient(45deg, lightblue, blanchedalmond);
-}
-
-/*---Footer---*/ 
-footer {
-  height: auto;
-  background-color: rgb(71, 69, 65);
-  padding-top: 30px;
-  border: 1px solid grey;
-}
-
-.footer-contenido{
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  flex-direction: column;
-}
-
-.footer-contenido h3 {
-  font-weight: bold;
-  color: blanchedalmond;
-  padding: 12px;
-  font-size: 30px;
-}
-
-.footer-contenido p {
-  color: blanchedalmond ;
-  max-width: 500px;
-  padding: 8px;
-  text-align: center;
-}
-
-.redes {
-   list-style: none;
-   display: flex;
-   align-items: center;
-   justify-content: center;
-   margin: 1rem 0 3rem 0;
-}
-
-.redes li {
-  margin: 0 10px;
-}
-
-.redes a {
-  color: blanchedalmond;
-  text-decoration:  none;
-}
-
-.redes a:hover {
-  color:  rgba(255, 255, 255, 0.75);
-}
-
-.footer-bottom {
-  background-color: rgb(234, 208, 168);
-  padding: 15px 15px 5px 15px;
-  text-align: center;
-  width: auto;
-}
-
-.footer-bottom {
-  font-size: 14px;  
-}
-.footer-bottom span{
-text-transform: uppercase;
-}
-
 @media screen and (max-width: 767px) {
-  
   .container {
     flex-flow: row wrap;
   }
-  
   .img-inicio1 {
     display: block;
     width: 90vw;
   }
-
   .titulo1 {
     margin: 15px;
   }
-
   .titulo2 {
     margin: 15px;
   }
-
   .container2 {
     flex-flow: row wrap;
   }
-
   .img-inicio2 {
     display: block;
     width: 90vw;
   }
-
   .container-mision, .mision-section {
     flex-flow: row wrap;
   }
-
   .misionimg {
     display: block;
     width: 95vw;
   }
-
   .title-container {
-  flex-flow: row wrap;
+    flex-flow: row wrap;
   }
-
   .sobrenosotros {
     display: block;
     width: 95vw;
   }
-  
-
   .img-container {
     display: block;
     width: 95vw;
   }
   .textbox-au p {
-  margin: 0px 30px;
+    margin: 0px 30px;
   }
-
- .video-yt {
-   margin: 20px;
-   width: 90vw;
+  .video-yt {
+    margin: 20px;
+    width: 90vw;
   }
-  
 }
+
+/*# sourceMappingURL=style.css.map */
