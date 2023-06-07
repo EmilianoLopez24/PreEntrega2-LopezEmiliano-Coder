@@ -1,52 +1,47 @@
 .body-mision {
   background: $main-color;
+  .titulo-mision {
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+    margin: 20px 20px 0px 20px;
+    font-size: 27px;
+    text-align: center;
+    text-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+  }
+  
+  .container-mision {
+    display: flex;
+    .misionimg {
+      width: 500px;
+      padding: 15px 0px 50px 10px;
+    }
+    &  p {
+      padding: 12px;
+      margin:12px 15px 12px 12px
+    }
+  }
+  .mision-section {
+    display: flex;
+    justify-content: space-evenly;
+
+    .mision-box {
+      width: 210px;
+      height: 255px;
+      padding: 15px;
+      margin: 15px 15px 70px 15px;
+      border: 2px solid $light-color;
+      border-radius: 12px;
+      background-color:$light-color;
+      color: white;
+      }
+      & h3 {
+        text-align: center;
+      }
+      & p {
+        text-align: center;
+        padding-top: 30px;
+      }
+  }
 }
 
-.misionimg {
-  width: 500px;
-  padding: 15px 0px 50px 10px;
-}
-
-.titulo-mision {
-  display: flex;
-  justify-content: center;
-  padding: 20px;
-  margin: 20px 20px 0px 20px;
-  font-size: 27px;
-  text-align: center;
-  text-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
-}
-
-.container-mision {
-  display: flex;
-}
-
-.container-mision p {
-  padding: 12px;
-  margin:12px 15px 12px 12px
-}
-
-.mision-section {
-  display: flex;
-  justify-content: space-evenly;
-}
-
-.mision-box {
-width: 210px;
-height: 255px;
-padding: 15px;
-margin: 15px 15px 70px 15px;
-border: 2px solid $light-color;
-border-radius: 12px;
-background-color:$light-color;
-color: white;
-}
-
-.mision-section h3 {
-  text-align: center;
-}
-
-.mision-section p {
-  text-align: center;
-  padding-top: 30px;
-}

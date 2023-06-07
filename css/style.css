@@ -71,29 +71,24 @@ nav {
 .body-index {
   background: linear-gradient(90deg, lightblue, blanchedalmond);
 }
-
-.container {
+.body-index .container {
   display: flex;
   padding: 15px;
 }
-
-.textbox1 p {
-  margin: 30px 25px;
-}
-
-.titulo1 {
+.body-index .container .titulo1 {
   margin-top: 15px;
   padding-top: 15px;
   margin-left: 62px;
 }
-
-.img-inicio1 {
+.body-index .container .img-inicio1 {
   width: 350px;
   height: 460px;
   margin-top: 20px;
 }
-
-.explora button {
+.body-index .container p {
+  margin: 30px 25px;
+}
+.body-index .container .explora button {
   width: 150px;
   height: 50px;
   margin-left: 50px;
@@ -103,37 +98,31 @@ nav {
   border-style: solid;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
 }
-
-.explora button a {
+.body-index .container .explora button a {
   color: white;
   text-decoration: none;
 }
-
-.explora button:hover {
+.body-index .container button:hover {
   box-shadow: 0 6px 10px rgba(0, 0, 0, 0.2);
   background-color: rgb(47, 124, 207);
   border-color: rgb(47, 124, 207);
   transition: 0.15s;
 }
-
-.container2 {
+.body-index .container2 {
   display: flex;
   flex-direction: row-reverse;
   padding: 12px;
 }
-
-.img-inicio2 {
+.body-index .container2 .img-inicio2 {
   width: 440px;
   margin: 15px 15px;
 }
-
-.textbox2 p {
+.body-index .container2 .textbox2 p {
   padding: 12px;
   margin-right: 8px;
   margin-left: 15px;
 }
-
-.titulo2 {
+.body-index .container2 .titulo2 {
   font-size: 32px;
   padding: 10px;
   margin-left: 100px;
@@ -142,13 +131,7 @@ nav {
 .body-mision {
   background: linear-gradient(90deg, lightblue, blanchedalmond);
 }
-
-.misionimg {
-  width: 500px;
-  padding: 15px 0px 50px 10px;
-}
-
-.titulo-mision {
+.body-mision .titulo-mision {
   display: flex;
   justify-content: center;
   padding: 20px;
@@ -157,22 +140,22 @@ nav {
   text-align: center;
   text-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
 }
-
-.container-mision {
+.body-mision .container-mision {
   display: flex;
 }
-
-.container-mision p {
+.body-mision .container-mision .misionimg {
+  width: 500px;
+  padding: 15px 0px 50px 10px;
+}
+.body-mision .container-mision p {
   padding: 12px;
   margin: 12px 15px 12px 12px;
 }
-
-.mision-section {
+.body-mision .mision-section {
   display: flex;
   justify-content: space-evenly;
 }
-
-.mision-box {
+.body-mision .mision-section .mision-box {
   width: 210px;
   height: 255px;
   padding: 15px;
@@ -182,12 +165,10 @@ nav {
   background-color: rgb(71, 69, 65);
   color: white;
 }
-
-.mision-section h3 {
+.body-mision .mision-section h3 {
   text-align: center;
 }
-
-.mision-section p {
+.body-mision .mision-section p {
   text-align: center;
   padding-top: 30px;
 }
@@ -203,7 +184,6 @@ nav {
   color: rgb(71, 69, 65);
   text-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
 }
-
 .grid-container .box-container {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(270px, 1fr));
@@ -217,24 +197,20 @@ nav {
   padding: 30px 20px;
   margin-bottom: 24px;
 }
-
 .grid-container .box-container .box h3 {
   color: rgb(54, 53, 52);
   font-size: 22px;
   padding: 10px 0;
 }
-
 .grid-container .box-container .box p {
   color: rgb(81, 80, 80);
   font-size: 15px;
   line-height: 1.6;
 }
-
 .grid-container .box-container .box:hover {
   box-shadow: 0 10px 5px rgba(0, 0, 0, 0.3);
   transform: scale(1.02);
 }
-
 .grid-container .box-container .box a {
   margin-top: 10px;
   display: inline-block;
@@ -245,26 +221,14 @@ nav {
   padding: 8px 25px;
   text-decoration: none;
 }
-
-.libro-reglas {
+.grid-container .box-container .box .libro-reglas {
   width: 90%;
 }
 
 .body-au {
   background: linear-gradient(90deg, lightblue, blanchedalmond);
 }
-
-.sobrenosotros {
-  width: 46%;
-  margin-top: 20px;
-}
-
-.img-container {
-  display: flex;
-  justify-content: center;
-}
-
-.title-container {
+.body-au .title-container {
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -274,14 +238,20 @@ nav {
   padding: 10px;
   text-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
 }
-
-.textbox-au p {
+.body-au .title-container .img-container {
+  display: flex;
+  justify-content: center;
+}
+.body-au .title-container .img-container .sobrenosotros-img {
+  width: 46%;
+  margin-top: 20px;
+}
+.body-au .textbox-au p {
   padding: 20px;
   margin: 0px 100px;
   font-size: 17px;
 }
-
-.video-yt {
+.body-au .video-yt {
   margin-left: 30%;
   margin-top: 40px;
   margin-bottom: 30px;
@@ -318,9 +288,9 @@ nav {
   .title-container {
     flex-flow: row wrap;
   }
-  .sobrenosotros {
+  .sobrenosotros-img {
     display: block;
-    width: 95vw;
+    width: 96vw;
   }
   .img-container {
     display: block;
